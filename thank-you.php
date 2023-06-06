@@ -1,7 +1,6 @@
 
 <?php 
 if (!isset($_SESSION)) session_start(); 
-print_r($_SESSION)
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +18,7 @@ print_r($_SESSION)
   <div id="formContent" class="p-2">
 
     <h3>Thank You for registering.</h3>
-    <h4>Welcome!</h4>
+    <h4>Welcome <?php echo $_SESSION['name']?>!</h4>
     <a href="contacts.php" class="btn btn-sm btn-primary">Continue</a>
   </div>
 </div>

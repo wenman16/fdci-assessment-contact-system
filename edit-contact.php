@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Add Contacts | FDCI Exam | Contact System</title>
+  <title>Update Contact | FDCI Exam | Contact System</title>
   <?php if (!isset($_SESSION)) session_start(); include 'styles.php'; include 'inc/popup.php'; include 'connection.php' ?>
 </head>
 <body>
